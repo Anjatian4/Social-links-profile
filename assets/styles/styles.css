@@ -50,6 +50,12 @@ main {
 
 .custom-link {
   text-decoration: none;
+  font-weight: 600;
+}
+
+.custom-link :hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
 }
 
 .custom-link div {
@@ -62,3 +68,4 @@ main {
   border-radius: 5px;
   font-size: 12px;
 }
+
